@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="50" cy="50" r="48"/>
+    </clipPath>
+  </defs>
+  <circle cx="50" cy="50" r="49" fill="#2A2B32" stroke="#4E505E" stroke-width="2"/>
+  <g clip-path="url(#circleClip)">
+    <rect width="100" height="100" fill="#EAE5DF"/>
+    <!-- Color blocking shapes -->
+    <path d="M10 20 Q 30 10 50 25 T 90 20 L 95 60 Q 60 70 30 50 Z" fill="#64B5F6" opacity="0.85"/>
+    <path d="M35 15 Q 70 30 65 65 Q 40 85 20 70 Z" fill="#FFB74D" opacity="0.9"/>
+    <path d="M15 45 Q 45 40 50 85 L 10 90 Z" fill="#E57373" opacity="0.85"/>
+    <path d="M50 50 Q 85 55 80 95 L 35 95 Z" fill="#4DB6AC" opacity="0.85"/>
+    <!-- Abstract line art face -->
+    <path d="M48 22 C 40 28, 42 42, 52 46 C 45 52, 40 60, 44 68 C 48 76, 58 75, 52 88" fill="none" stroke="#212121" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M38 38 Q 44 32 50 36" fill="none" stroke="#212121" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="44" cy="40" r="2.2" fill="#212121"/>
+    <path d="M48 56 Q 54 60 60 55" fill="none" stroke="#212121" stroke-width="2" stroke-linecap="round"/>
+    <path d="M32 30 C 35 15, 65 18, 68 32 C 72 45, 60 55, 64 68" fill="none" stroke="#212121" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
